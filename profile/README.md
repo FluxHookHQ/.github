@@ -1,85 +1,106 @@
 <div align="center">
 
-# 🚧 FluxHookHQ
+# 🚧 FluxHookHQ  
+### <i>Modern Webhook Infrastructure & Event Delivery — Coming Soon</i>
 
-### <i>Reliable Webhooks & Event Infrastructure — Coming Soon</i>
-
-Welcome to <b>FluxHookHQ</b>.  
-We're currently building a modern, reliable, scalable platform for  
-<b>webhook delivery</b>, <b>event routing</b>, and <b>workflow automation</b> —  
-but the code and repos are still in development.
+FluxHookHQ is an upcoming open-source platform designed to provide  
+robust **webhook delivery**, intelligent **event routing**, and flexible **workflow automation**.  
+The ecosystem is currently under active development, with repositories scheduled to be released soon.
 
 ---
 
-## 📌 What We’re Building
+<br>
 
-FluxHook is planned to include:
+## 📌 Platform Overview
 
-<b>• Webhook Delivery Engine</b><br>
-Reliable, queue-backed webhook dispatch with retries & DLQ.
+FluxHook is being designed as a complete event infrastructure layer for modern applications:
 
-<b>• Event Router</b><br>
-Rule-based routing for filtering, transforming, forwarding events.
+<table align="center">
+<tr><td align="left">
 
-<b>• Workflow Engine</b><br>
-Multi-step workflows triggered by events.
+**• Webhook Delivery Engine**  
+Reliable, queue-backed delivery with retry logic, exponential backoff, and DLQ.
 
-<b>• Developer Tooling</b><br>
-SDKs, CLI tools, signing helpers, and testing utilities.
+**• Event Router**  
+Rule-driven routing for filtering, transformation, and multi-destination forwarding.
 
-<b>• Infrastructure Templates</b><br>
-Deployment setups using Docker/Kubernetes + observability stack.
+**• Workflow Engine**  
+Event-triggered workflows and sequencing for automation and orchestration.
 
-We are still setting up the architecture, backend structures, and initial codebases.
+**• Developer Tooling**  
+SDKs, CLI tooling, signature verification utilities, and local testing tools.
 
----
+**• Infrastructure Templates**  
+Production-ready Docker/Kubernetes setups, observability stack, and deployment blueprints.
 
-## 🛠 Current Status
+</td></tr>
+</table>
 
-✔ Organization created  
-✔ Architecture, design, and roadmap drafted  
-🔧 Repositories: coming soon  
-🚀 First prototype: in progress  
-📅 Public release: TBD  
-
-You’ll see updates here as different components get added.
+<br>
 
 ---
 
-## 📅 Roadmap (Early Stage)
+## 🛠 Current Development Status
 
-- [ ] Initialize core repository (`fluxhook`)  
-- [ ] Setup Go backend skeleton  
-- [ ] Add PostgreSQL schema & migrations  
-- [ ] Add NATS JetStream integration  
-- [ ] Implement event ingestion API  
-- [ ] Implement basic webhook delivery worker  
-- [ ] Add retry logic  
-- [ ] Add SDKs (Go/JS/Python)  
-- [ ] Add simple dashboard (future)  
+✔ Organization initialized  
+✔ Architecture & foundational design completed  
+🔧 Core repositories: **in preparation**  
+🚀 First working prototype: **in progress**  
+📅 Public alpha release: **TBD**
 
-We will update this roadmap as we progress.
+Further updates will be published as components become available.
+
+<br>
 
 ---
 
-## 🤝 Want to Follow Progress?
+## 📅 Roadmap (Initial Phase)
 
-Star the organization or watch the repos to get notifications when we push updates.  
-More details, docs, and announcements will come as soon as we have the first working commit.
+<div align="center">
+
+| Status | Task |
+|:-----:|------|
+| ⬜ | Initialize core repository (`fluxhook`) |
+| ⬜ | Build Go backend foundation |
+| ⬜ | Implement PostgreSQL schema & migrations |
+| ⬜ | Integrate NATS JetStream message backbone |
+| ⬜ | Develop event ingestion API |
+| ⬜ | Implement webhook dispatcher worker |
+| ⬜ | Add retry engine and DLQ handling |
+| ⬜ | Release SDKs (Go / TypeScript / Python) |
+| ⬜ | Build minimal web dashboard (future milestone) |
+
+</div>
+
+This roadmap will evolve as architecture and development progress.
+
+<br>
+
+---
+
+## 🤝 Stay Updated
+
+Follow the organization, star the repositories, and enable notifications to track progress.  
+Detailed documentation, diagrams, and integration examples will be published with the first release.
+
+<br>
 
 ---
 
 ## 📬 Contact
 
-For now, reach out here on GitHub.  
-More channels (website, docs, email) will be added when the project matures.
+For now, GitHub is the primary communication channel.  
+Additional channels (website, documentation portal, email) will be introduced as the project matures.
+
+<br>
 
 ---
 
-## 🙌 Thanks for Checking Us Out
+## 🙌 Thank You
 
-FluxHookHQ is still early, but we’re excited to build something powerful and open-source.
+FluxHookHQ is early but aims to deliver production-grade event infrastructure  
+that is reliable, scalable, and developer-friendly.
 
-> <b>Stay tuned — big things coming soon.</b>
+> <b>Stay tuned — the first release is on the way.</b>
 
 </div>
